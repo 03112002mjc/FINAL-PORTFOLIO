@@ -930,6 +930,29 @@ nav .fa-solid{
         margin: 0;
     }*/
 
+    .home-img{
+        width: 310px;
+        height: 310px;
+    }
+    .home-img .glowing::after {
+        width: 295px; 
+        height: 295px; 
+    }
+
+    .glowing .image{
+        width: 295px;
+        height: 295px;
+    }
+
+    .image img{
+        
+        right: -25px;
+        bottom: -40px;
+        max-width: 350px;
+        
+    }
+
+
     .home-content {
         max-width: 100%;
         font-size: 16px;
