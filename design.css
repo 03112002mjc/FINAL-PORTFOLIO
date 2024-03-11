@@ -61,7 +61,7 @@ nav ul li a{
     display: inline-block;
     color: #fff;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 2vh;
     position: relative;
     font-weight: 700; 
     opacity: 0;
@@ -80,7 +80,7 @@ nav ul li a:hover{
 
 
 .logo{
-    font-size: 30px;
+    font-size: 5vh;
     color: #fff;
     text-decoration: none;
     font-weight: 1000;
@@ -88,7 +88,7 @@ nav ul li a:hover{
     opacity: 0;
     animation: slideTop 1s ease forwards;   
     animation-delay: .5s; 
-    text-shadow: 2px 3px 2px #666666 ;
+    text-shadow: .5vh .5vh .5vh #666666 ;
 }
     
     @keyframes slideTop {
@@ -247,7 +247,7 @@ nav ul li a:hover{
         opacity: 0;
         animation: slideLeft 1s ease forwards;   
         animation-delay: .7s;
-        text-shadow: 3px 3px 3px #000000;
+        text-shadow: .5vh .5vh .5vh #000000;
 
         
          
@@ -319,7 +319,7 @@ nav ul li a:hover{
         opacity: 0;
         animation: slideRight 1s ease forwards;   
         animation-delay: 1.3s; 
-        text-shadow: 3px 3px 3px #000000;
+        text-shadow: .5vh .5vh .5vh #000000;
         
     }
     
@@ -414,13 +414,13 @@ nav ul li a:hover{
         background: linear-gradient(45deg, #0099e6,#1ab2ff, #80d4ff );
         border: none;
         border-radius: 40px;
-        font-size: 14px;
+        font-size: 2vh;
         color: black;
         border:1px solid #0099e6;
         text-decoration: none;
         font-weight: 700;
         letter-spacing: 1px;
-        box-shadow: 0 0 15px #8c8c8c;
+        box-shadow: 0 0 2vh #8c8c8c;
         transition: .5s;
         background-position: 0 0;
         filter: blur(.1px);
@@ -449,12 +449,7 @@ nav ul li a:hover{
     padding-top: 1%;
     color: #fff;
     background: rgba(58,68,82,.97);
-    
-    
-   
-    
-   
-
+    height: 100vh;
 }
 
 .row{
@@ -472,7 +467,7 @@ nav ul li a:hover{
     border-radius: 15px;
     position: relative;
     top: 2vh;
-    box-shadow: 5px 5px 20px #000000;
+    box-shadow: 1vh 1vh 2vh #000000;
     border: 1px solid #fff;
 } 
 .about-col-2{
@@ -482,10 +477,11 @@ nav ul li a:hover{
     
 } 
 
+
 .sub-title{
-    font-size: 50px;
+    font-size: 8.5vh;
     color: #fff;
-    text-shadow: 3px 3px 3px #000000;
+    text-shadow: .5vh .5vh .5vh #000000;
     text-align: center;
     
 }
@@ -494,17 +490,18 @@ nav ul li a:hover{
     display: flex;
     margin: 20px 0 40px;
     color: #fff;
-    text-shadow: 3px 3px 3px #000000;
+    text-shadow: .5vh .5vh .5vh #000000;
     
 
 }
 
 .about-col-2 p{
     text-align: justify;
+    font-size: 2.3vh;
 } 
 .tab-links{
     margin-right: 50px;
-    font-size: 18px;
+    font-size: 2.5vh;
     cursor: pointer;
     position: relative;
 }
@@ -513,7 +510,7 @@ nav ul li a:hover{
     width: 0;
     height: 3px;
     background: #0099e6;
-    box-shadow: 3px 3px 3px #000000;
+    box-shadow: .5vh .5vh .5vh #000000;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -527,12 +524,13 @@ nav ul li a:hover{
 .tab-contents ul li{
     list-style: none;
     margin: 10px 0;
+    font-size: 2.3vh;
 
 }
 .tab-contents ul li span{
     color: #0099e6;
-    font-size: 14px;
-    text-shadow: 3px 3px 3px #000000;
+    font-size: 2.3vh;
+    text-shadow: .6vh .6vh .4vh #000000;
 }
 .tab-contents{
     display: none;
@@ -567,6 +565,8 @@ nav ul li a:hover{
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
+    
+    
 }
 
 
@@ -585,7 +585,7 @@ nav ul li a:hover{
     flex-direction: column;
     padding: 0 40px;
     text-align: center;
-    font-size: 14px;
+    font-size: 2.2vh;
     transition: height .8s;
    
 }
@@ -593,18 +593,18 @@ nav ul li a:hover{
     
     margin-bottom: 20px;
     color: #0099e6;
-    text-shadow: 3px 3px 3px #000000;
+    text-shadow: .6vh .6vh .5vh #000000;
 }
 
 .layer a{
     margin-top: 20px;
     color: #0099e6;
     text-decoration: none;
-    font-size: 18px;
-    line-height: 60px;
+    font-size: 3vh;
+    line-height: 7vh;
     background: #fff;
-    width: 60px;
-    height: 60px;
+    width: 7vh;
+    height: 7vh;
     border-radius: 50%;
     text-align: center;
 }
@@ -626,6 +626,7 @@ nav ul li a:hover{
     box-shadow: 0 0 10px #000000;
     color: black;
     transition: background .5s;
+    font-size: 2.3vh;
 
 }
 .btn:active{
@@ -644,18 +645,20 @@ nav ul li a:hover{
 .services-list{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
-    grid-gap: 40px;
+    grid-gap: 30px;
     margin-top: 50px;
 }
 
 .services-list div{
     background: #cceeff;
     padding: 40px;
-    box-shadow: 3px 3px 3px #000000;
-    font-size: 13px;    
+    box-shadow: .5vh .5vh .6vh #000000;
+    font-size: 2vh;    
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
+    width: 100%;
+    height: 67vh;
     
 
 }
@@ -676,18 +679,18 @@ progress{
    margin-bottom: 30px;
 }
 .services-list div h2{
-    font-size: 30px;
+    font-size: 5vh;
     font-weight: 500;
     margin-bottom: 15px;
 }
 .services-list div a{
     text-decoration: none;
     color: #0099e6;
-    box-shadow: 3px 3px 5px #000000;
+    box-shadow: .5vh .5vh .5vh #000000;
     background: #003366;
     border-radius: 10px;
     padding: 10px;
-    font-size: 12px;    
+    font-size: 2vh;    
     margin-top: 20px;
     display: inline-block;
     transition: 1s transform ease;
@@ -699,20 +702,26 @@ progress{
 }
 .services-list div:hover{   
     background: black;
-    box-shadow: 3px 3px 20px #fff;
+    box-shadow: .5vh .5vh 2vh #fff;
     transform: translateY(-20px);
     color: #fff;
 }
 
 /*-------------------------------------CONTACT-----------------------------------------*/
 #contact{
-    padding: 30px 2%;
+    padding: 3%;
+    width: 100%;
+    height: auto;
+    
    
 }
 .contact-left{
     flex-basis: 35%;
     color: #fff;
 
+}
+.contact-left p{
+    font-size: 2.3vh;
 }
 
 .contact-right{
@@ -727,7 +736,7 @@ progress{
 .contact-left p i{
     color: white;
     margin-right: 15px;
-    font-size: 25px;
+    font-size: 3.1vh;
 }
 
 .social-icons{
@@ -736,7 +745,7 @@ progress{
 
 .social-icons a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 3.1vh;
     margin-right: 15px;
     color: #fff;
     display: inline-block;
@@ -757,16 +766,18 @@ progress{
 
 .contact-right form{
     width: 100%;
+    height: 100vh;
 }
 form input, form textarea{
     width: 100%;
+    height: auto;
     border: 0;
     outline: none;
     background: #262626;
     padding: 15px;
     margin: 15px;
     color: white;
-    font-size: 18px;
+    font-size: 2.5vh;
     border-radius: 8px;
 }
 
@@ -799,18 +810,18 @@ form .btn-btn2:hover{
     
 }
 .copyright{
-    font-size: 14px;
+    font-size: 2vh;
     width: 100%;
     text-align: center;
-    padding: 25px 0;
+    padding: 0 0;
     font-weight: 500;
-    margin-top: 20px;
+    margin-top: 0;
     color: #fff;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 #msg{
     color: #ff0000;
-    text-shadow:3px 3px 2px #000000;
+    text-shadow:.5vh .5vh .5vh #000000;
     position: relative;
     top: -30px;
     right: -250px;
@@ -924,7 +935,7 @@ nav .fa-solid{
         font-size: 16px;
         text-align: center;
         position: relative;
-        background: rgba(178, 206, 242, 0.7);
+        background:transparent;
         bottom: -10px;
         left: 0px;
         border-radius: 15px;
@@ -968,6 +979,7 @@ nav .fa-solid{
         display: block;
         font: 30px;
         position: relative;
+        color: #fff;
         
     }
     nav ul{
