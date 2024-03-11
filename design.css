@@ -449,7 +449,7 @@ nav ul li a:hover{
     padding-top: 1%;
     color: #fff;
     background: rgba(58,68,82,.97);
-    height: 100vh;
+    
 }
 
 .row{
@@ -880,7 +880,7 @@ nav .fa-solid{
     }
 
     
-    .home {
+    /*.home {
         height: 100vh;
         padding: 0;
         margin: 0;
@@ -928,7 +928,7 @@ nav .fa-solid{
         overflow: hidden;
         padding: 0;
         margin: 0;
-    }
+    }*/
 
     .home-content {
         max-width: 100%;
