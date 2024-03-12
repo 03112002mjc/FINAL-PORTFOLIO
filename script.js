@@ -38,17 +38,19 @@ function closemenu() {
 document.addEventListener('DOMContentLoaded', function () {
     const scriptURL = 'https://script.google.com/macros/s/AKfycbwIxjtD0AwgVeuRceATAgmFnRezvw_a2cHx5HfZkR4FCZWlXcpjC8wz9mby63IV65KQjg/exec';
     const form = document.forms['submit-to-google-sheet'];
-    const msg = document.getElementById("msg");
 
     form.addEventListener('submit', e => {
         e.preventDefault();
         fetch(scriptURL, { method: 'POST', body: new FormData(form) })
             .then(response => {
-                msg.innerHTML = "Message successfully sent!";
-                setTimeout(function () {
-                    msg.innerHTML = "";
-                }, 5000);
-                form.reset();
+                if (response.ok) {
+                    // Display alert if the response is successful
+                    alert("Message sent!");
+                    form.reset();
+                } else {
+                    // Handle other response statuses
+                    console.error('Error!', response.status);
+                }
             })
             .catch(error => console.error('Error!', error.message));
     });
