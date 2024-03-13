@@ -1,4 +1,4 @@
-
+alert("WELCOME TO MY PORTFOLIO!");
 
 // Function to handle tab switching in about
 function opentab(tabname) {
