@@ -36,7 +36,7 @@ function closemenu() {
 
 // Function to submit form data to Google Sheets
 document.addEventListener('DOMContentLoaded', function () {
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbwIxjtD0AwgVeuRceATAgmFnRezvw_a2cHx5HfZkR4FCZWlXcpjC8wz9mby63IV65KQjg/exec';
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxg2bQs_2tpb4H6MhjkUD8xmJ9-pBUPk3Oqoic7bakzTo_mD_55NbLCT4oi3cKvYCGy/exec';
     const form = document.forms['submit-to-google-sheet'];
 
     form.addEventListener('submit', e => {
